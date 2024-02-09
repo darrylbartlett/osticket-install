@@ -191,7 +191,7 @@ A blue Internet Information Services page should be displayed.</p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b7290d96-a6ab-4188-863a-026efec0dc5f"/>
 </p>
 
-<p>An osTicket install window will open in the browser.</p>
+<p>An osTicket install window will open in a browser.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/8b5d8efe-067f-43d3-9c7e-fcd1f1665211"/>
 </p>
