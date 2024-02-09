@@ -361,7 +361,7 @@ A blue Internet Information Services page should be displayed.</p>
 
 <h3>User Login Page</h3>
 <p>This is where users will submit their tickets.</p>
-<p>http://localhost/osTicket/" - <i>this would only be available with an active server or VM.</i></p>
+<p><i>http://localhost/osTicket/ - this would only be available with an active server or VM.</i></p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/8cb8b37b-215a-4efc-b441-2af470786c41"/>
 </p>
