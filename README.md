@@ -66,7 +66,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>Click the OK button to apply all the changes.</p>
-<p>To see if the changes are working, go to an Internet browser and type 127.0.0.1 in the address bar.
+<p>To see if the changes are working, go to an Internet browser and type 127.0.0.1 in the address bar. 
 A blue Internet Information Services page should be displayed.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/326923c2-46b6-4db3-85b8-e6dae90a7719"/>
@@ -77,9 +77,11 @@ A blue Internet Information Services page should be displayed.</p>
 
 <h3>Install PHP Manager for IIS</h3>
 <p>Install PHP Manager for IIS using the default options.</p>
+<br />
 
 <h3>Install Rewrite Module</h3>
 <p>Install Rewrite Module using the default options.</p>
+<br />
 
 <p>In File Explorer, create a folder called PHP on the C: drive.</p>
 <p>
@@ -96,5 +98,64 @@ A blue Internet Information Services page should be displayed.</p>
 
 <h3>Install VC Redistributable</h3>
 <p>Install VC Redistributable using the default options.</p>
+<br />
+
+<h3>Install MySQL</h3>
+<p>Use the following criteria while going through the install (use the defaults for everything else):</p>
+
+- At the ‘Choose Setup Type’ screen, select Typical. Click Install.
+- The checkbox for ‘Launch the MySQL Instance Configuration Wizard’ should be selected. Click Finish and continue the installation.
+
+<p>During the MySQL Server Instance Configuration Wizard install use the following criteria (use the defaults for everything else):</p>
+
+- For the configuration type, select the Standard Configuration option and continue the installation.
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b2776b57-460d-46ab-8bda-880ecac9c698"/>
+</p>
+
+- For the security options, use Modify Security Settings by entering a password in the New root password and Confirm fields (this password won’t be used, it’s only mandatory for the install). Click Next. 
+<p>
+<img src="![image](https://github.com/darrylbartlett/osticket-install/assets/159499839/fbdf44a5-14e1-4cea-806c-c0fbf1cfe67c"/>
+</p>
+
+<p>On the next screen, click Execute to finish the installation.</p>
+<br />
+
+
+
+<h3>Register PHP in IIS</h3>
+<p>Open Internet Information Services (IIS) as an Administrator (Run as administrator).</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/45e1bd2e-b50d-48c7-aa18-12e072bce53e"/>
+</p>
+
+<p>Open PHP Manager.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/981aae85-706d-48d0-a51c-2d7a9dd67d47"/>
+</p>
+
+<p>Select Register new PHP version.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b92fb317-bcd6-4720-8476-e9b63a74efc0"/>
+</p>
+
+<p>Enter or look for the path C:\PHP\php-cgi.exe and click OK.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/c0bd1742-9ab9-4515-9494-17bdba1161b4"/>
+</p>
+
+<p>On the left side of the screen under Connections, expand Sites and select Default Web Site.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/475ca4cd-1195-4dcd-914b-13fe75f67c69"/>
+</p>
+
+<p>On the right side of the screen under Actions, click on Restart to stop and start the IIS server.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/9981619f-baaa-4b23-8094-7e9a1f92d337"/>
+</p>
+
+<p>Close the IIS screen.</p>
+<br />
+
 
 
