@@ -245,13 +245,13 @@ A blue Internet Information Services page should be displayed.</p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/6d8059f0-8a07-40a8-b723-9be6e0f7b2c6"/>
 </p>
 
-<p>Select Remove all inherited permissions from this object.</p>
+<p>Select 'Remove all inherited permissions from this object'.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/eb2ca4a7-843e-4174-bd21-96e779ce1c00"/>
 </p>
 
 <p>Select the Add button.</p>
-<p>At the top of the Permission Enty screen, click on 'Select a principal'.</p>
+<p>At the top of the Permission Entry screen, click on 'Select a principal'.</p>
 <p></p>In the Enter the object name to select box, type in 'everyone' and click on Check Names. Click OK.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/1f3e783c-f6db-4aaa-a96d-37899d76465c"/>
