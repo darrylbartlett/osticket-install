@@ -74,6 +74,7 @@ A blue Internet Information Services page should be displayed.</p>
 <br />
 
 <p>After confirming, close the Control Panel and associated screens.</p>
+<br />
 
 
 <h3>Install PHP Manager for IIS</h3>
