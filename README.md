@@ -115,16 +115,19 @@ A blue Internet Information Services page should be displayed.</p>
 <p>During the MySQL Server Instance Configuration Wizard install use the following criteria (use the defaults for everything else):</p>
 
 - For the configuration type, select the Standard Configuration option and continue the installation.
+
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b2776b57-460d-46ab-8bda-880ecac9c698"/>
 </p>
 
-- For the security options, use Modify Security Settings by entering a password in the New root password and Confirm fields (this password won’t be used, it’s only mandatory for the install). Click Next. 
+- For the security options, use Modify Security Settings by entering a password in the New root password and Confirm fields (this password won’t be used, it’s only mandatory for the install). Click Next.
+
 <p>
 <img src="![image](https://github.com/darrylbartlett/osticket-install/assets/159499839/fbdf44a5-14e1-4cea-806c-c0fbf1cfe67c"/>
 </p>
 
 <p>On the next screen, click Execute to finish the installation.</p>
+<br />
 
 
 <h3>Register PHP in IIS</h3>
