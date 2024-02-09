@@ -203,7 +203,7 @@ A blue Internet Information Services page should be displayed.</p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/de8e57c4-bd99-4380-b57a-63a9ffbb596a"/>
 </p>
 
-<p>Right-click on the following extensions in the list and select Enable:</p>
+<p>Right-click on the following extensions in the list and select Enable for each one:</p>
 
 -	php_imap.dll
 -	php_intl.dll
