@@ -316,7 +316,7 @@ A blue Internet Information Services page should be displayed.</p>
 </p>
 <br />
 
-<h3>Delete the Setup Folder</h3>
+<h3>Cleanup Files</h3>
 <p>Go to C:\inetpub\wwwroot\osTicket</p>
 <p>Find the setup folder and delete it.</p>
 <p>
