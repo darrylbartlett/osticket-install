@@ -59,11 +59,42 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-
 <p>Next, under Internet Information Services, click the ‘+’ to expand its options and select the checkbox for IIS Management Console.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/bf4c1207-d1f2-4f73-b108-960686ea87b0"/>
 </p>
 <br />
+
+<p>Click the OK button to apply all the changes.</p>
+<p>To see if the changes are working, go to an Internet browser and type 127.0.0.1 in the address bar.
+A blue Internet Information Services page should be displayed.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/326923c2-46b6-4db3-85b8-e6dae90a7719"/>
+</p>
+<br />
+
+<p>After confirming, close the Control Panel and associated screens.</p>
+
+<h3>Install PHP Manager for IIS</h3>
+<p>Install PHP Manager for IIS using the default options.</p>
+
+<h3>Install Rewrite Module</h3>
+<p>Install Rewrite Module using the default options.</p>
+
+<p>In File Explorer, create a folder called PHP on the C: drive.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/fa1d2a5f-3d15-41ad-89ab-3efc102530b2"/>
+</p>
+<br />
+
+<h3>Unzip the PHP zip file</h3>
+<p>The PHP download will be in a zip file. Unzip/Extract the contents into C:\PHP.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/97054c00-1618-440d-b8dd-f38572cb5cca"/>
+</p>
+<br />
+
+<h3>Install VC Redistributable</h3>
+<p>Install VC Redistributable using the default options.</p>
 
 
