@@ -120,7 +120,7 @@ A blue Internet Information Services page should be displayed.</p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b2776b57-460d-46ab-8bda-880ecac9c698"/>
 </p>
 
-- For the security options, use Modify Security Settings by entering a password in the New root password and Confirm fields (this password won’t be used, it’s only mandatory for the install). Click Next.
+- For the security options, use Modify Security Settings by entering a password in the 'New root password' and Confirm fields (this password won’t be used, it’s only mandatory for the install). Click Next.
 
 <p>
 <img src="![image](https://github.com/darrylbartlett/osticket-install/assets/159499839/fbdf44a5-14e1-4cea-806c-c0fbf1cfe67c"/>
