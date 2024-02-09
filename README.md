@@ -93,7 +93,7 @@ A blue Internet Information Services page should be displayed.</p>
 <br />
 
 
-<h3>Unzip the PHP zip file</h3>
+<h3>Unzip the PHP Zip File</h3>
 <p>The PHP download will be in a zip file. Unzip/Extract the contents into C:\PHP.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/97054c00-1618-440d-b8dd-f38572cb5cca"/>
