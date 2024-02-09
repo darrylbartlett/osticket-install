@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Creation of an Azure Virtual Machine (VM) with Windows 10 Pro
-- Connecting to the VM using Remote Desktop Connection - the public IP address for the VM is used as the Computer Name, along with the username and password entered as part of the VM setup
+- Connecting to the VM using Remote Desktop Connection
 - Installation files for osTicket – the following files were downloaded for this example:
   - osTicket
   - PHP Manager for IIS
