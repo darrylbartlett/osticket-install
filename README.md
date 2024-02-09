@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - VC Redistributable
   - MySQL
   - HeidiSQL
-
+<br />
 
 <h2>Installation Steps</h2>
 
