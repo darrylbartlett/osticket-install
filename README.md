@@ -122,7 +122,6 @@ A blue Internet Information Services page should be displayed.</p>
 <br />
 
 
-
 <h3>Register PHP in IIS</h3>
 <p>Open Internet Information Services (IIS) as an Administrator (Run as administrator).</p>
 <p>
@@ -157,5 +156,107 @@ A blue Internet Information Services page should be displayed.</p>
 <p>Close the IIS screen.</p>
 <br />
 
+
+<h3>Install osTicket</h3>
+<p>The osTicket download will be in a zip file. Open the contents of the zip file.</p>
+<p>Copy the upload folder into c:\inetpub\wwwroot.</p>
+</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b766ec72-fa95-40bf-a681-6829e1068440"/>
+</p>
+
+<p>In c:\inetpub\wwwroot, rename the upload folder to osTicket.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/0f91a63b-90f0-4382-b3f1-38f62f8402ff"/>
+</p>
+
+<p>Reopen IIS as an Administrator.</p>
+<p>On the right under Actions, click on Restart to stop and start the server.</p>
+<p>On the left under Connections, expand Sites and Default Web Site. Click on osTicket.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/1c84dea6-281a-4dd5-b87e-7b97727b0573"/>
+</p>
+
+<p>On the right under Actions, click on 'Browse *:80 (http)'.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b7290d96-a6ab-4188-863a-026efec0dc5f"/>
+</p>
+
+<p>An osTicket install window will open in the browser.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/8b5d8efe-067f-43d3-9c7e-fcd1f1665211"/>
+</p>
+
+<p>This osTicket window shows there are extensions not enabled.</p>
+<p>In IIS, with osTicket still selected on the left of the screen, open PHP Manager.</p>
+<p>At the bottom of the screen, select 'Enable or disable and extension'.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/de8e57c4-bd99-4380-b57a-63a9ffbb596a"/>
+</p>
+
+<p>Right-click on the following extensions in the list and select Enable:</p>
+
+-	php_imap.dll
+-	php_intl.dll
+-	php_opcache.dll
+
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/544caa30-f87a-4ba2-baa4-bef97759e614"/>
+</p>
+
+<p>Go back to the Internet browser and refresh the osTicket install screen. Verify the changes.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/b67765e9-ae49-4973-837d-46893c975478"/>
+</p>
+
+<p>Click the Continue button.</p>
+
+<h3>Update the Configuration File</h3>
+<p>The osTicket screen shows there is a configuration file missing.</p>
+</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/74ed13cc-92d4-4e9f-a11e-e6899eaaaee9"/>
+</p>
+
+<p>Go to C:\inetpub\wwwroot\osTicket\include</p>
+<p>Find the ost-sampleconfig.php file. Rename it to ost-config.php</p>
+<p>Refresh the osTicket screen in the browser. The screen now shows the configuration file is not writable.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/2d2f78dd-9562-41bd-81ae-225a941a6f16"/>
+</p>
+
+<p>The ost-config.php file needs its permissions updated.</p>
+<p>Right-click on ost-config.php and select Properties from the sub-menu.</p>
+<p>Select the Security tab.</p>
+<p>Click on the Advanced button.</p>
+<p>In the Advanced Security Settings window, click the 'Disable inheritance' button.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/6d8059f0-8a07-40a8-b723-9be6e0f7b2c6"/>
+</p>
+
+<p>Select Remove all inherited permissions from this object.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/eb2ca4a7-843e-4174-bd21-96e779ce1c00"/>
+</p>
+
+<p>Select the Add button.</p>
+<p>At the top of the Permission Enty screen, click on 'Select a principal'.</p>
+<p></p>In the Enter the object name to select box, type in 'everyone' and click on Check Names. Click OK.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/1f3e783c-f6db-4aaa-a96d-37899d76465c"/>
+</p>
+
+<p>Under 'Basic permissions', select the checkbox beside 'Full control'. Click OK.</p>
+<p>On the Advanced Security Settings screen, click on the Apply button. Click OK.</p>
+<p>Click OK on the Properties window.</p>
+<p>Refresh the osTicket install screen in the browser. It should now show the osTicket Basic Installation screen. osTicket is ready to finish the setup.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/411bc589-8779-480b-9bf9-8a70eb9f48ad"/>
+</p>
+
+<p>Under System Settings, enter a Helpdesk Name and a Default Email.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/181c18a5-f514-43bb-95c3-cc749e75510c"/>
+</p>
 
 
