@@ -75,9 +75,11 @@ A blue Internet Information Services page should be displayed.</p>
 
 <p>After confirming, close the Control Panel and associated screens.</p>
 
+
 <h3>Install PHP Manager for IIS</h3>
 <p>Install PHP Manager for IIS using the default options.</p>
 <br />
+
 
 <h3>Install Rewrite Module</h3>
 <p>Install Rewrite Module using the default options.</p>
@@ -89,6 +91,7 @@ A blue Internet Information Services page should be displayed.</p>
 </p>
 <br />
 
+
 <h3>Unzip the PHP zip file</h3>
 <p>The PHP download will be in a zip file. Unzip/Extract the contents into C:\PHP.</p>
 <p>
@@ -96,9 +99,11 @@ A blue Internet Information Services page should be displayed.</p>
 </p>
 <br />
 
+
 <h3>Install VC Redistributable</h3>
 <p>Install VC Redistributable using the default options.</p>
 <br />
+
 
 <h3>Install MySQL</h3>
 <p>Use the following criteria while going through the install (use the defaults for everything else):</p>
@@ -211,6 +216,7 @@ A blue Internet Information Services page should be displayed.</p>
 
 <p>Click the Continue button.</p>
 
+
 <h3>Update the Configuration File</h3>
 <p>The osTicket screen shows there is a configuration file missing.</p>
 </p>
@@ -258,5 +264,100 @@ A blue Internet Information Services page should be displayed.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/181c18a5-f514-43bb-95c3-cc749e75510c"/>
 </p>
+<br />
 
 
+<h3>Install HeidiSQL</h3>
+<p>Install HeidiSQL using the default options.</p>
+<br />
+
+<p>Open HeidiSQL.</p>
+<p>At the bottom left corner, click the New button to create a new session.</p>
+<p>The User is root.</p>
+<p>Enter a password.</p>
+<p>Click the Open button to connect to the session.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/ade5addf-b609-4145-99f4-b4aa067ce573"/>
+</p>
+
+<p>On the left side of the screen, right-click on the empty area and select Create new and then Database.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/e957b874-8bc8-4e91-a443-c8e3c49eaf57"/>
+</p>
+
+<p>In the Create database box, enter osTicket in the Name field and click OK.</p>
+<p>osTicket will show on the left-side of the screen.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/01ba741c-cd10-41c1-9404-2d321cc816e9"/>
+</p>
+<br />
+
+
+<h3>Continue Setting Up osTicket Basic Installation in the Browser</h3>
+<p>Fill out the information for the Admin User.</p>
+<p>For the Database Settings, enter the following:</p>
+
+-	MySQL Database: osTicket
+-	MySQL Username: root
+-	Create a password for the MySQL Password
+
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/04e1b681-680f-4a3f-92f1-4155c27a06ee"/>
+</p>
+
+<p>Click Install Now.</p>
+<p>The browser window should show Congratulations.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/4dab483f-fa30-4ec1-ac71-f2fa7ebc36d5"/>
+</p>
+<br />
+
+<h3>Delete the Setup Folder</h3>
+<p>Go to C:\inetpub\wwwroot\osTicket</p>
+<p>Find the setup folder and delete it.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/240cd8b3-c093-4d42-acc6-7f0bee6e21ca"/>
+</p>
+
+<p>From the osTicket folder, select the include folder and find the ost-config.php file.</p>
+<p>Right-click on the file and select Properties from the sub-menu.</p>
+<p>Select the Security tab.</p>
+<p>Click on the Advanced button.</p>
+<p>Click on Everyone. Select the Edit button.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/ffde0bf9-57fd-4271-a135-8092abfe0188"/>
+</p>
+
+<p>Uncheck the following:</p>
+
+-	Full control
+-	Modify
+-	Write
+
+<p>Only 'Read & execute' and Read should be checked. Click OK.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/53889dee-41a2-477e-931f-3232c74840c0"/>
+</p>
+
+<p>Select Apply and then click OK.</p>
+<p>Click OK on the Properties box.</p>
+<br />
+
+
+<h3>Helpdesk Admin/Agent Login Page</h3>
+<p>This is where the Administrator and helpdesk agents will login.</p>
+<a href="http://localhost/osTicket/scp/login.php"> osTicket Admin and Agent Login </a>
+<p>Login with the Admin username and password to configure things like Roles, Departments, Teams, Agents, Users, and SLA’s.</p>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/66d7e54c-f531-4dfc-86e9-3f8ddec60b5a"/>
+</p>
+<br />
+
+
+<h3>User Login Page</h3>
+<p>This is where users will submit their tickets.</p>
+<a href="http://localhost/osTicket/"> osTicket User Login </a>
+<p>
+<img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/8cb8b37b-215a-4efc-b441-2af470786c41"/>
+</p>
+<br />
