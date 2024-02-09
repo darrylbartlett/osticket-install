@@ -351,7 +351,7 @@ A blue Internet Information Services page should be displayed.</p>
 
 <h3>Helpdesk Admin/Agent Login Page</h3>
 <p>This is where the Administrator and helpdesk agents will login.</p>
-<p><a href="http://localhost/osTicket/scp/login.php"> osTicket Admin and Agent Login </a></p>
+<p><i>http://localhost/osTicket/scp/login.php - this would only be available with an active server or VM.</i></p>
 <p>Login with the Admin username and password to configure things like Roles, Departments, Teams, Agents, Users, and SLA’s.</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/66d7e54c-f531-4dfc-86e9-3f8ddec60b5a"/>
@@ -361,7 +361,7 @@ A blue Internet Information Services page should be displayed.</p>
 
 <h3>User Login Page</h3>
 <p>This is where users will submit their tickets.</p>
-<p><a href="http://localhost/osTicket/"> osTicket User Login </a></p>
+<p>http://localhost/osTicket/" - <i>this would only be available with an active server or VM.</i></p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/8cb8b37b-215a-4efc-b441-2af470786c41"/>
 </p>
