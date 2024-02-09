@@ -131,6 +131,7 @@ A blue Internet Information Services page should be displayed.</p>
 
 
 <h3>Register PHP in IIS</h3>
+<p><i>Please note the name 'vm-osticket-lab' in any screenshots is the name of the virtual machine created in Azure</i></p>
 <p>Open Internet Information Services (IIS) as an Administrator (Run as administrator).</p>
 <p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/45e1bd2e-b50d-48c7-aa18-12e072bce53e"/>
