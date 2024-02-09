@@ -125,7 +125,6 @@ A blue Internet Information Services page should be displayed.</p>
 </p>
 
 <p>On the next screen, click Execute to finish the installation.</p>
-<br />
 
 
 <h3>Register PHP in IIS</h3>
