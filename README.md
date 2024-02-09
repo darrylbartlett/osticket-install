@@ -324,7 +324,7 @@ A blue Internet Information Services page should be displayed.</p>
 <img src="https://github.com/darrylbartlett/osticket-install/assets/159499839/240cd8b3-c093-4d42-acc6-7f0bee6e21ca"/>
 </p>
 
-<p>From the osTicket folder, select the include folder and find the ost-config.php file.</p>
+<p>In the osTicket folder, open the 'include' folder and find the ost-config.php file.</p>
 <p>Right-click on the file and select Properties from the sub-menu.</p>
 <p>Select the Security tab.</p>
 <p>Click on the Advanced button.</p>
